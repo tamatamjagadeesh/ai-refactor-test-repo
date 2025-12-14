@@ -1,11 +1,6 @@
-def check(a, b, c):
+def process(x, y, z):
     """
-    Prints "ok" if all conditions a, b, and c are true.
-
-    Args:
-        a: The first condition.
-        b: The second condition.
-        c: The third condition.
+    Prints "valid" if all input conditions x, y, and z are true.
     """
-    if a and b and c:
-        print("ok")
+    if x and y and z:
+        print("valid")
