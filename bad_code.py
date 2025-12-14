@@ -1,11 +1,6 @@
-def check(a, b, c):
-    """
-    Checks if all three conditions a, b, and c are true and prints a message.
+def check(a,b,c):
+    if a:
+        if b:
+            if c:
+                print("changed again")
 
-    Args:
-        a: The first condition.
-        b: The second condition.
-        c: The third condition.
-    """
-    if all([a, b, c]):
-        print("changed again")
