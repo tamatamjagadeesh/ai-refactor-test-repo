@@ -1,5 +1,11 @@
 def process(x, y, z):
-    if x:
-        if y:
-            if z:
-                print("valid")
+    """
+    Prints "valid" if x, y, and z are all true.
+
+    Args:
+        x: A boolean value.
+        y: A boolean value.
+        z: A boolean value.
+    """
+    if x and y and z:
+        print("valid")
